@@ -1,0 +1,1 @@
+java -jar -Xms1g -Xmx1g RNAmut.jar
