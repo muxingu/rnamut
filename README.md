@@ -6,7 +6,6 @@ RNAmut is a fast and user-friendly software that detects clinically important so
 ### **What is RNAmut not for?**
 RNAmut is not designed for detecting mutation across the whole genome. For these purposes, please use Varscan, GATK or other software.
 
-\
 
 ## **1 Getting Started** 
 ### **1.1 Requirement** 
