@@ -9,7 +9,7 @@ RNAmut is not designed for detecting mutation across the whole genome. For these
 
 ## **1 Getting Started** 
 ### **1.1 Requirement** 
-RNAmut requires Java Runtime Environment 8 (i.e. Java 1.8) installed on your computer. To check which Java version you have, open "Command Prompt" in Windows or Terminal in Mac or Linux and type "java -version". If your version does not start with 1.8, please download and install it from oracle.com \
+RNAmut requires Java Runtime Environment 8 (i.e. Java 1.8) installed on your computer. To check which Java version you have, open "Command Prompt" in Windows or Terminal in Mac or Linux and type "java -version". If Java is not found or your Java version does not start with 1.8, please download and install it from oracle.com \
 ![Alt text](/demo/img/java.png)
 
 ### **1.2 Download RNAmut**
@@ -20,7 +20,7 @@ To download RNAmut, click the "Clone or download" button on the top right of thi
 The easiest way to run RNAmut is to open the RNAmut_Windows.bat file for Windows users or the RNAmut_Mac-Linux.sh file for Mac or Linux users. **Do not** open the RNAmut.jar file directly. Once the software has started, click the "New Analysis" button on the top left. A new window will pop up, asking for 1) input FASTQ files 2) gene index file and 3) oncogenicity filter file. For demonstration purpose, do not change anything and click the start button. The demo analysis will finish instantly. To analyse your own data, you need to provide FASTQ files from your own experiments and real RNA-seq data normally take 10-20 minutes depending on computers.\
 ![Alt text](/demo/img/run.png)
 
-### **1.3 Output**
+### **1.4 Output**
 Once completed the analysis, RNAmut reports the detected oncogenic mutations within the provided RNA-seq data. It also reports all mutations prior to the oncogenicity filter for user's interest.
 ![Alt text](/demo/img/output.png)
 
