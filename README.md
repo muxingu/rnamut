@@ -7,4 +7,5 @@ RNAmut is a fast integrated pipeline that detects somatic mutations from RNA-seq
 RNAmut is not designed for detecting mutation across the whole genome. For these purposes, please use Varscan or GATK.
 
 
+![Alt text](/demo/img/download.jpg?raw=true "Optional Title")
 
