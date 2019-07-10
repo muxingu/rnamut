@@ -14,10 +14,10 @@ RNAmut requires Java Runtime Environment 8 (i.e. Java 1.8) installed on your com
 
 ### **1.2 Download RNAmut**
 To download RNAmut, click the "Clone or download" button on the top right of this page, and then "Download ZIP". Once the ZIP file is saved on your computer, you **must** extract it to a separate folder. Otherwise the program will not run. \
-![Alt text](/demo/img/download.jpg)
+![Alt text](/demo/img/download.png)
 
 ### **1.3 Run RNAmut**
-The easiest way to run RNAmut is to open the RNAmut_Windows.bat file for Windows users or the RNAmut_Mac-Linux.sh file for Mac or Linux users. **Do not** open the RNAmut.jar file directly. Once the software has started, click the "New Analysis" button on the top left. A new window will pop up, asking for 1) input FASTQ files 2) gene index file and 3) oncogenicity filter file. For demonstration purpose, do not change anything and click the start button. The demo analysis will finish instantly. To analyse your own data, you need to provide FASTQ files from your own experiments and real RNA-seq data normally take 10-20 minutes depending on computers.\
+The easiest way to run RNAmut is to open the RNAmut_Windows.bat file for Windows users. For Mac or Linux users, open Terminal, change directory to the RNAmut folder and type "sh RNAmut_Mac-Linux.sh". **Do not** open the RNAmut.jar file directly. Once the software has started, click the "New Analysis" button on the top left. A new window will pop up, asking for 1) input FASTQ files 2) gene index file and 3) oncogenicity filter file. For demonstration purpose, do not change anything and click the start button. The demo analysis will finish instantly. To analyse your own data, you need to provide FASTQ files from your own experiments and real RNA-seq data normally take 10-20 minutes depending on computers.\
 ![Alt text](/demo/img/run.png)
 
 ### **1.4 Output**
