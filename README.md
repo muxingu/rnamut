@@ -27,16 +27,16 @@ Once completed the analysis, RNAmut reports the detected oncogenic mutations wit
 
 ## **2. Advanced Uses**
 ### **2.1 Increase Allocated Memory**
-The previously described way or running RNAmut allocated 1024MB of memory for it. If you ran out of memory, you should increase the memory manually. To do this, open "Command Prompt" in Windows or Terminal in Mac or Linux. Use "cd" command to go to RNAmut folder. Type "java -Xmx???m -Xms???m -jar RNAmut.jar", where ??? is the memory in MB to allocate, and hit the Enter key. For example, to allocate 2048 MB of memory:\
+The previously described way or running RNAmut allocated 1024MB of memory for it. If you ran out of memory, you should increase the memory manually. To do this, open "Command Prompt" in Windows or Terminal in Mac or Linux. Use "cd" command to go to RNAmut folder. Type "java -Xmx???m -Xms???m -jar RNAmut.jar", where ??? is the memory in MB to allocate, and hit the Enter key. For example, to allocate 2048 MB of memory:
 ![Alt text](/demo/img/java_mem.png)
 
 ### **2.2 Customise Oncogenicity Filter**
-The default oncogenicity filter stored in the oncogenicity_filter.txt file was obtained from the Papaemmanuil et al 2016 paper in NEJM. To customise it, you need to keep the format unchanged:\
-  - Each row must consit of two columns separated by TAB. \
+The default oncogenicity filter stored in the oncogenicity_filter.txt file was obtained from the Papaemmanuil et al 2016 paper in NEJM. To customise it, you need to keep the format unchanged:
+  - Each row must consit of two columns separated by TAB. 
   - The first column must be a gene within the gene index.
   - The second column consists of comma-separated oncogenic mutations to be retained by the filter. Mutation can be in either of the two format. A) Full mutation, for example V277M, which will retain V277M but discard V277L. B) Amino acid and location only, for example D835, which will retain all mutation at D835 of the gene.
   - Certain keywords are allowed in the comma-separated fields of Column 2. These keywords are: frameshift (for retaining all frameshifts) and stopcodon (for retaining all substitution causing the gain of stop codon)
 
 ### **2.3 Customise the Set of Tested Genes**
-To extend RNAmut to a larger set of indexed genes or to study other cancers, users will need to provide a customised file of gene index. We will provide a webserver for this purpose. To be updated.\
+To extend RNAmut to a larger set of indexed genes or to study other cancers, users will need to provide a customised file of gene index. We will provide a webserver for this purpose. To be updated.
 
