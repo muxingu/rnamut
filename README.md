@@ -37,6 +37,6 @@ The default oncogenicity filter stored in the oncogenicity_filter.txt file was o
   - The second column consists of comma-separated oncogenic mutations to be retained by the filter. Mutation can be in either of the two format. A) Full mutation, for example V277M, which will retain V277M but discard V277L. B) Amino acid and location only, for example D835, which will retain all mutation at D835 of the gene.
   - Certain keywords are allowed in the comma-separated fields of Column 2. These keywords are: frameshift (for retaining all frameshifts) and stopcodon (for retaining all substitution causing the gain of stop codon)
 
-### **2.3 Customise the Set of Test Genes**
+### **2.3 Customise the Set of Tested Genes**
 To extend RNAmut to a larger set of indexed genes or to other cancers, users will need to provide a customised gene index file. We will provide a webserver for this purpose. To be updated.\
 
