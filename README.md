@@ -38,5 +38,5 @@ The default oncogenicity filter stored in the oncogenicity_filter.txt file was o
   - Certain keywords are allowed in the comma-separated fields of Column 2. These keywords are: frameshift (for retaining all frameshifts) and stopcodon (for retaining all substitution causing the gain of stop codon)
 
 ### **2.3 Customise the Set of Tested Genes**
-To extend RNAmut to a larger set of indexed genes or to other cancers, users will need to provide a customised gene index file. We will provide a webserver for this purpose. To be updated.\
+To extend RNAmut to a larger set of indexed genes or to study other cancers, users will need to provide a customised file of gene index. We will provide a webserver for customising the indexed genes. To be updated.\
 
