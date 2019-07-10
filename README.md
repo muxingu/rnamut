@@ -40,4 +40,3 @@ The default oncogenicity filter stored in the oncogenicity_filter.txt file was o
 ### **2.3 Customise the Set of Test Genes**
 To extend RNAmut to a larger set of indexed genes or to other cancers, users will need to provide a customised gene index file. We will provide a webserver for this purpose. To be updated.\
 
-Last update of document: 20190710\
