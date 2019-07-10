@@ -1,7 +1,5 @@
 # RNAmut: Robust Identification of Clinically Relevant Mutations in Acyte Myeloid Leukemia (AML) Using RNA-seq
 
-20190710\
-
 ### **What is RNAmut?**
 RNAmut is a fast and user-friendly software that detects clinically important somatic mutations from RNA-seq data. To run RNAmut, user needs to provide **1)** FASTQ files from transcriptomic RNA-seq (for single-end data, only 1 file is needed), **2)** an index file for the genes of interest (a 26-gene panel for AML is provided) and **3)** a text file containing oncogenicity filter (the filter for AML genes is provided).
 
@@ -40,5 +38,6 @@ The default oncogenicity filter stored in the oncogenicity_filter.txt file was o
   - Certain keywords are allowed in the comma-separated fields of Column 2. These keywords are: frameshift (for retaining all frameshifts) and stopcodon (for retaining all substitution causing the gain of stop codon)
 
 ### **2.3 Customise the Set of Test Genes**
-To extend RNAmut to a larger set of indexed genes or to other cancers, users will need to provide a customised gene index file. We will provide a webserver for this purpose. To be updated.
+To extend RNAmut to a larger set of indexed genes or to other cancers, users will need to provide a customised gene index file. We will provide a webserver for this purpose. To be updated.\
 
+Last update of document: 20190710\
