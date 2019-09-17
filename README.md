@@ -9,7 +9,7 @@ RNAmut is not designed for detecting mutation across the whole genome. For these
 
 ## **1 Getting Started** 
 ### **1.1 Requirement** 
-RNAmut requires Java Runtime Environment 8 (i.e. Java 1.8) installed on your computer. To check which Java version you have, open "Command Prompt" in Windows or Terminal in Mac or Linux and type "java -version". If Java is not found or your Java version does not start with 1.8, please download and install it from oracle.com \
+RNAmut requires Java Runtime Environment 8 (i.e. Java 1.8) installed on your computer. To check which Java version you have, open Command Prompt in Windows or Terminal in Mac or Linux and type "java -version". If Java is not found or your Java version does not start with 1.8, please download and install it from oracle.com \
 ![Alt text](/demo/img/java.png)
 
 ### **1.2 Download RNAmut**
