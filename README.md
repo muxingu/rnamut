@@ -38,7 +38,7 @@ The default oncogenicity filter stored in the oncogenicity_filter.txt file was o
   - Certain keywords are allowed in the comma-separated fields of Column 2. These keywords are: frameshift (for retaining all frameshifts) and stopcodon (for retaining all substitution causing the gain of stop codon)
   - Insertion or deletion within a range can be allowed. (e.g. aainsertion[300-320], aadeletion[300-320] )
 
-### **2.3 Customise the Set of Tested Genes**
+### **2.3 Customise the Gene Panel**
 To extend RNAmut to a larger set of indexed genes or to study other cancers, users will need to provide a customised file of gene index. Customised index can be created at: 
 https://www.sanger.ac.uk/science/tools/rnamut/rnamut/#/
 
