@@ -50,9 +50,9 @@ In Linux Bash shell, MacOS Terminal or Windows command prompt, run RNAmut using 
 Two arguments are required - 1) comma-separated paths to paired-end FASTQ files (no comma if data is single-end) and 2) output directory.
 For example:
 
-    java -Xmx2g -Xmx2g -jar RNAmut.jar /scratch/test_1.fq.gz,/scratch/test_2.fq.gz /scratch/outdir
+    java -Xmx2g -Xmx2g -jar RNAmut.jar -n test_sample /scratch/test_1.fq.gz,/scratch/test_2.fq.gz /scratch/outdir
 	
-To see full usage:
+To see full usage of options:
 
 	java -jar RNAmut.jar -h
 
