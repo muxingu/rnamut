@@ -42,7 +42,7 @@ The default oncogenicity filter stored in the oncogenicity_filter.txt file was o
 To extend RNAmut to a larger set of indexed genes or to study other cancers, users will need to provide a customised file of gene index. Customised index can be created at: 
 https://www.sanger.ac.uk/science/tools/rnamut/rnamut/#/
 
-### **2.3 Run RNAmut from Command Line**
+### **2.4 Run RNAmut from Command Line**
 In Linux Bash shell, MacOS Terminal or Windows command prompt, run RNAmut using command:
 
     java <JAVA_OPTIONS> -jar RNAmut.jar <OPTIONS> FASTQ1_PATH,FASTQ2_PATH OUTPUT_DIR
