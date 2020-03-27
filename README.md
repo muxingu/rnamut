@@ -44,9 +44,10 @@ https://www.sanger.ac.uk/science/tools/rnamut/rnamut/#/
 
 ### **2.3 Run RNAmut from command line**
 In Linux Bash shell, MacOS Terminal or Windows command prompt, run RNAmut using command:
-<p align="center">
-  java <JAVA_OPTIONS> -jar RNAmut.jar <OPTIONS> FASTQ1_PATH,FASTQ2_PATH OUTPUT_DIR
-</p>
-Two arguments are required - 1) comma-separated paths to FASTQ files (no comma if single-end) and 2) output directory.
-For example:
-java -Xmx2g -Xmx2g -jar RNAmut.jar /scratch/test_1.fq.gz,/scratch/test_2.fq.gz /scratch/outdir
+
+    java <JAVA_OPTIONS> -jar RNAmut.jar <OPTIONS> FASTQ1_PATH,FASTQ2_PATH OUTPUT_DIR
+
+Two arguments are required - 1) comma-separated paths to paired-end FASTQ files (no comma if data is single-end) and 2) output directory. \
+For example: \
+
+    java -Xmx2g -Xmx2g -jar RNAmut.jar /scratch/test_1.fq.gz,/scratch/test_2.fq.gz /scratch/outdir
