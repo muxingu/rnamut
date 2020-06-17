@@ -1,7 +1,7 @@
 # RNAmut: Robust Identification of Clinically Relevant Mutations in Acyte Myeloid Leukemia (AML) Using RNA-seq
 
 ### **What is RNAmut?**
-RNAmut is a fast and user-friendly software that detects clinically important somatic mutations from RNA-seq data on a relative ly small gene panel (typically less than 100 genes). To run RNAmut, user needs to provide **1)** FASTQ files from transcriptomic RNA-seq (for single-end data, only 1 file is needed), **2)** an index file for the genes of interest (a 33-gene panel for AML is provided) and **3)** a text file containing oncogenicity filter (the filter for AML genes is provided).
+RNAmut is a fast and user-friendly software that detects clinically important somatic mutations from RNA-seq data on a relatively small gene panel (typically less than 100 genes). To run RNAmut, user needs to provide **1)** FASTQ files from transcriptomic RNA-seq (for single-end data, only 1 file is needed), **2)** an index file for the genes of interest (a 33-gene panel for AML is provided) and **3)** a text file containing oncogenicity filter (the filter for AML genes is provided).
 
 ### **What is RNAmut not for?**
 RNAmut is not designed for detecting mutation across the whole genome or within a large number of genes (e.g. hundres of gene). For these purposes, please use Varscan, GATK or other software.
