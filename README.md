@@ -4,7 +4,7 @@
 RNAmut is a fast and user-friendly software that detects clinically important somatic mutations from RNA-seq data on a relatively small gene panel (typically less than 100 genes). To run RNAmut, user needs to provide **1)** FASTQ files from transcriptomic RNA-seq (for single-end data, only 1 file is needed), **2)** an index file for the genes of interest (a 33-gene panel for AML is provided) and **3)** a text file containing oncogenicity filter (the filter for AML genes is provided).
 
 ### **What is RNAmut not for?**
-RNAmut is not designed for detecting mutation across the whole genome or within a large number of genes (e.g. hundres of gene). For these purposes, please use Varscan, GATK or other software.
+RNAmut is not designed for detecting mutation across the whole genome or for large sets of genes (e.g. hundres of gene). For these purposes, please use Varscan, GATK or other software.
 
 
 ## **1 Getting Started** 
